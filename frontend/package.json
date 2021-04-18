@@ -1,0 +1,41 @@
+{
+    "name": "frontend",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "serve": "vue-cli-service serve",
+      "build": "vue-cli-service build",
+      "lint": "vue-cli-service lint",
+      "open:cypress": "./node_modules/.bin/cypress open"
+    },
+    "dependencies": {
+      "axios": "^0.19.0",
+      "bootstrap": "^4.3.1",
+      "bootstrap-vue": "^2.0.0-rc.28",
+      "luxon": "^1.24.1",
+      "material-icons": "^0.3.1",
+      "svg.js": "^2.7.1",
+      "vue": "^2.6.10",
+      "vue-datetime": "^1.0.0-beta.13",
+      "vue-js-modal": "^2.0.0-rc.3",
+      "vue-notification": "^1.3.20",
+      "vue-router": "^3.1.2",
+      "weekstart": "^1.0.1" 
+    },
+    "devDependencies": {
+      "@vue/cli-plugin-eslint": "^3.11.0",
+      "@vue/cli-service": "^3.11.0",
+      "@vue/eslint-config-standard": "^4.0.0",
+      "ajv": "^5.5.2",
+      "babel-eslint": "^10.0.2",
+      "cypress": "^4.5.0",
+      "eslint": "^5.16.0",
+      "eslint-plugin-cypress": "^2.10.3",
+      "eslint-plugin-vue": "^5.2.3",
+      "jquery": "^3.5.1",
+      "mocha": "^7.1.2",
+      "typescript": "^3.8.3",
+      "vue-template-compiler": "^2.5.21"
+    }
+  }
+  
